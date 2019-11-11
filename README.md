@@ -1,0 +1,3 @@
+# fizzbuzz
+fizzbuzz
+ IT'S FIZZBUZZ IN JAVASCRIPT, WHAT MORE DO YOU WANT
