@@ -1,9 +1,9 @@
 function fizzbuzz(number) {
-  if (number === 3) {
+  if (number % 3 === 0) {
     return 'fizz';
   } else if (number === 5) {
     return 'buzz';
   } else {
-    return '1';
+    return number.toString();
   }
 }
