@@ -19,4 +19,12 @@ describe("FizzBuzz", function() {
   it ('prints fizz instead of 6', function() {
     expect(fizzbuzz(6)).toEqual('fizz');
   });
+
+  it ('prints buzz instead of 10', function() {
+    expect(fizzbuzz(10)).toEqual('buzz');
+  });
+
+  it ('prints fizzbuzz instead of 15', function() {
+    expect(fizzbuzz(15)).toEqual('fizzbuzz');
+  });
 });
