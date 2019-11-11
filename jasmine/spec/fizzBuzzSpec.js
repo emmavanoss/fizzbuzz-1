@@ -8,4 +8,8 @@ describe("FizzBuzz", function() {
     expect(fizzbuzz(3)).toEqual('fizz');
   });
 
+  it ('prints buzz instead of 5', function() {
+    expect(fizzbuzz(5)).toEqual('buzz');
+  });
+
 });
